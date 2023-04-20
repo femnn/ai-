@@ -86,6 +86,57 @@ header p {
     margin: 10px;
 }
 
+.nav-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: red; /* 修改颜色为红色 */
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.nav-toggle:hover {
+    color: darkred; /* 修改悬停颜色为深红色 */
+}
+
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    background-color: #333;
+    height: 100vh;
+    padding: 20px;
+    transition: right 0.3s;
+    z-index: 99;
+}
+
+.nav-menu.active {
+    right: 0;
+}
+
+.nav-menu nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.nav-menu nav ul li a:hover {
+    background-color: #444;
+}
+
 /* 媒体查询，适应电脑端屏幕 */
 @media screen and (min-width: 768px) {
     main {
