@@ -18,10 +18,25 @@
             </div>
             <img src="./your_qrcode_url.png" alt="二维码" class="qrcode">
         </div>
+    </header>  
+   <button class="nav-toggle">☰</button>
     </header>
-    <main>
-        <section class="nav-category">
-            <h2>搜索引擎</h2>
+    <div class="nav-menu">
+        <nav>
+            <ul>
+                <li><a href="#category1">分类1</a></li>
+                <li><a href="#category2">分类2</a></li>
+                <li><a href="#category3">分类3</a></li>
+                <!-- 添加其他分类链接 -->
+            </ul>
+        </nav>
+     </div>
+    <div class="main-wrapper">
+        <div class="content-wrapper">
+            <main>
+                <section>
+                    <a id="category1"></a> <!-- 添加锚点 -->
+                    <h2>分类1</h2>
             <ul class="nav-list">
     <li>
         <a href="https://www.coursera.org/" target="_blank">Coursera - 在线学习全球顶级大学课程</a>
@@ -30,18 +45,20 @@
         <a href="https://www.edx.org/" target="_blank">edX - 免费在线课程，来自世界顶级大学</a>
     </li>
 </ul>
-        </section>
-        <section class="nav-category">
-            <h2>购物网站</h2>
+         </section>
+                <section>
+                    <a id="category2"></a> <!-- 添加锚点 -->
+                    <h2>分类2</h2>
             <ul class="nav-list">
                 <li><a href="https://www.taobao.com" target="_blank">淘宝</a></li>
                 <li><a href="https://www.jd.com" target="_blank">京东</a></li>
                 <li><a href="https://www.jd.com" target="_blank">京东</a></li>
                 <li><a href="https://www.jd.com" target="_blank">京东</a></li>
             </ul>
-        </section>
-        <section class="nav-category">
-            <h2>社交媒体</h2>
+       </section>
+                <section>
+                    <a id="category3"></a> <!-- 添加锚点 -->
+                    <h2>分类3</h2>
             <ul class="nav-list">
                 <li><a href="https://www.zhihu.com" target="_blank">知乎</a></li>
                 <li><a href="https://www.weibo.com" target="_blank">微博</a></li>
@@ -49,5 +66,9 @@
         </section>
         <!-- 在此处添加更多分类 -->
     </main>
+</div>
+    </div>
+     <script src="./script.js"></script>
 </body>
+
 </html>
