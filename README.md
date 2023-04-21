@@ -6,3 +6,4 @@
 网址是：https://femnn.github.io/ai-hualiaoshi/
 欢迎关注公众号：Ai话聊室
 ![qrcode_for_gh_0c083afb491d_860](https://user-images.githubusercontent.com/28421346/233538599-ba530dde-4ca1-496e-90a6-b5a565a037c7.jpg)
+Discord频道请访问网页：https://discord.gg/AJsGSMgxEp
